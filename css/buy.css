@@ -1,0 +1,205 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 12px;
+  font-familiy: "微软雅黑"; }
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #666;
+  text-align: center; }
+
+li {
+  list-style: none; }
+
+img {
+  vertical-align: middle;
+  border: 0; }
+
+input {
+  outline: none; }
+
+.cl:after {
+  content: "";
+  display: block;
+  overflow: hidden;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+.cl {
+  zoom: 1; }
+
+.buy-page {
+  width: 990px;
+  margin: auto; }
+
+.buy-top h1 {
+  float: left;
+  background: url(../images/20160907114031950.png) 0 0 no-repeat;
+  background-size: contain;
+  width: 258px;
+  height: 96px; }
+
+.buy-top a {
+  float: right;
+  display: block;
+  font-size: 28px;
+  padding-top: 15px; }
+
+.buy-nav {
+  margin: 10px 0;
+  background: #ccc url(http://static.winxuancdn.com/css/v1/images/bread-buy.jpg) no-repeat;
+  background-position: 0 0;
+  height: 33px; }
+
+.buy-content {
+  padding: 10px 0; }
+  .buy-content .buy-list {
+    border: 1px solid #ddd;
+    background: #FFFEFD;
+    margin-bottom: 20px; }
+    .buy-content .buy-list .buy-list-top {
+      height: 36px;
+      border-bottom: 1px solid #ddd;
+      clear: both;
+      background: #F3F3F3; }
+      .buy-content .buy-list .buy-list-top li {
+        height: 36px;
+        float: left;
+        line-height: 36px;
+        text-align: center;
+        color: #666;
+        border-right: 1px solid #fff;
+        width: 109px; }
+        .buy-content .buy-list .buy-list-top li:first-child {
+          width: 435px; }
+        .buy-content .buy-list .buy-list-top li:last-child {
+          border-right: 0; }
+    .buy-content .buy-list .buy-ul li .buy-li-top {
+      height: 4px;
+      border-bottom: 1px solid #eee;
+      background-color: #f3f3f3;
+      font-size: 0;
+      line-height: 0; }
+    .buy-content .buy-list .buy-ul li .sc_goodsPic img {
+      height: 55px;
+      width: 55px;
+      float: left;
+      margin: 5px; }
+    .buy-content .buy-list .buy-ul li .sc_goodsTitle {
+      width: 370px;
+      height: 65px;
+      line-height: 65px;
+      float: left;
+      text-align: center; }
+      .buy-content .buy-list .buy-ul li .sc_goodsTitle a {
+        width: 370px;
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #0066CC; }
+        .buy-content .buy-list .buy-ul li .sc_goodsTitle a:hover {
+          text-decoration: underline; }
+    .buy-content .buy-list .buy-ul li .sc_goodsPrice {
+      width: 440px;
+      height: 65px;
+      line-height: 65px;
+      float: left;
+      text-align: center;
+      border-right: 1px solid #fff; }
+      .buy-content .buy-list .buy-ul li .sc_goodsPrice strong, .buy-content .buy-list .buy-ul li .sc_goodsPrice span, .buy-content .buy-list .buy-ul li .sc_goodsPrice p, .buy-content .buy-list .buy-ul li .sc_goodsPrice .fav {
+        display: block;
+        width: 110px;
+        float: left; }
+    .buy-content .buy-list .buy-ul li .sc_delete {
+      display: block;
+      float: left;
+      margin: 20px 40px; }
+      .buy-content .buy-list .buy-ul li .sc_delete:hover {
+        color: red;
+        text-decoration: underline; }
+    .buy-content .buy-list .buy-list-bottom {
+      background: #F3F3F3; }
+      .buy-content .buy-list .buy-list-bottom .buy-sum {
+        height: 50px;
+        background: #fff;
+        position: relative; }
+        .buy-content .buy-list .buy-list-bottom .buy-sum a {
+          float: left;
+          line-height: 24px;
+          margin: 10px 10px 0 0;
+          padding: 0 8px 0 20px; }
+          .buy-content .buy-list .buy-list-bottom .buy-sum a:hover {
+            color: red;
+            text-decoration: underline; }
+        .buy-content .buy-list .buy-list-bottom .buy-sum .buy-sum-num {
+          float: right;
+          width: 100px;
+          text-align: right;
+          padding-right: 15px; }
+          .buy-content .buy-list .buy-list-bottom .buy-sum .buy-sum-num span {
+            color: #cc0000;
+            font-weight: bold; }
+        .buy-content .buy-list .buy-list-bottom .buy-sum .buy-sum-price {
+          float: right;
+          text-align: left; }
+          .buy-content .buy-list .buy-list-bottom .buy-sum .buy-sum-price .buy-sum-all span {
+            display: block;
+            float: right;
+            width: 145px;
+            text-align: right;
+            font-family: Verdana, Geneva, Arial;
+            padding-right: 15px; }
+          .buy-content .buy-list .buy-list-bottom .buy-sum .buy-sum-price .buy-sum-minus {
+            width: 250px;
+            padding: 5px 0; }
+            .buy-content .buy-list .buy-list-bottom .buy-sum .buy-sum-price .buy-sum-minus span {
+              display: block;
+              float: right;
+              width: 145px;
+              text-align: right;
+              font-family: Verdana, Geneva, Arial;
+              padding-right: 15px; }
+      .buy-content .buy-list .buy-list-bottom .buy-count {
+        height: 40px; }
+        .buy-content .buy-list .buy-list-bottom .buy-count span {
+          float: right;
+          width: 165px;
+          right: 16px;
+          text-align: right;
+          font-family: Verdana, Geneva, Arial;
+          color: #CC0000;
+          font-weight: bolder;
+          font-size: 1.6em;
+          line-height: 40px; }
+        .buy-content .buy-list .buy-list-bottom .buy-count p {
+          line-height: 40px;
+          float: right;
+          width: 110px;
+          right: 220px;
+          font-weight: bolder;
+          margin-right: 75px; }
+
+.buy-button .buy-back {
+  display: block;
+  width: 120px;
+  height: 40px;
+  float: left;
+  background: #ccc url(http://static.winxuancdn.com/css/v1/images/bread-buy.jpg) no-repeat;
+  background-position: 0 -270px;
+  cursor: pointer; }
+
+.buy-button .buy-pay {
+  display: block;
+  width: 170px;
+  height: 55px;
+  float: right;
+  background: #ccc url(http://static.winxuancdn.com/css/v1/images/bread-buy.jpg) no-repeat;
+  background-position: -120px -270px;
+  cursor: pointer; }

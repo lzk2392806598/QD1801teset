@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link href="css/login.min.css" rel='stylesheet' type='text/css'>
+		<script src = "js/require.js" defer async="true" data-main = "js/main">
+			window.onload = function(){
+				require(["main"], function(main){
+					main.main();
+				})
+			}
+		</script>
+	</head>
+	<body>
+		<h1>ebooks登陆</h1>
+		<div class="login-form cl">
+			<div class="close"> </div>
+			<div class="head-info">
+				<label class="lbl-1"> </label>
+				<label class="lbl-2"> </label>
+				<label class="lbl-3"> </label>
+			</div>
+			<div class="clear"> </div>
+			<div class="avtar"><img src="images/avtar.png" /></div>
+			<form id="user">
+				<input type="text" class="text" id="name" name="name" placeholder="用户名">
+				<div class="mend" id = "name_span">6~18个字符，可使用字母、数字、下划线，需以字母开头</div>
+				<div class="key">
+					<input type="password" value=""	id="password" name="password">
+					<div class="mend" id = "password_span">密码：6~16个字符，区分大小写</div>
+				</div>
+				<input type="text" class="text" id="code" name="code" placeholder="验证码">
+				<p class="codeN"></p>
+				<div class="mend" id = "code_span">请输入验证码</div>
+				<div class="signin"><input type="submit" value="登陆" ></div>
+				<div class="regis"><input type="submit" value="注册" ></div>
+			</form>
+		</div>
+		<div class="copy-rights">
+			<p>Copyright &copy; 2018.Company name All rights reserved.</p>
+		</div>
+	</body>
+</html>

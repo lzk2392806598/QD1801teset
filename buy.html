@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" type="text/css" href="css/buy.min.css">
+		<script src = "js/require.js" defer async="true" data-main = "js/main">
+			window.onload = function(){
+				require(["main"], function(main){
+					main.main();
+				})
+			}
+		</script>
+	</head>
+	<body>
+		<div class="buy-page">
+			<div class="buy-top cl">
+				<h1></h1>
+				<a href="">联系客服</a>
+			</div>
+			<div class="buy-nav"></div>
+			<div class="buy-content">
+				<div class="buy-list">
+					<ul class="buy-list-top">
+						<li>商品</li>
+						<li>现价</li>
+						<li>积分</li>
+						<li>优惠</li>
+						<li>数量</li>
+						<li>操作</li>
+					</ul>
+					<ul class="buy-ul">
+							
+					</ul>
+					<div class="buy-list-bottom">
+						<div class="buy-sum cl">
+							<a href="">删除所有商品</a>
+								
+							<div class="buy-sum-price">
+								<div class="buy-sum-all">
+								总计
+								<span>￥0</span>
+								</div>
+								<div class="buy-sum-minus">
+								优惠
+								<span>-￥0</span>
+								</div>
+							</div>
+							<div class="buy-sum-num">
+								<span>0</span>
+								件商品
+							</div>
+						</div>
+						<div class="buy-count">
+							<span>￥0</span>
+							<p>合计(不含运费)</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="buy-button cl">
+				<a href="list.html" class="buy-back"></a>
+				<a href="#" class="buy-pay"></a>
+			</div>
+		</div>
+	</body>
+</html>
